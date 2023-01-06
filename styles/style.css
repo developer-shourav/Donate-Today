@@ -118,3 +118,44 @@ p{
     border: none;
     border-bottom: 1px solid gray;
 }
+
+/* =================================================
+  --------Donation Plan section  Styles --------
+==================================================== */
+.donation-plan-section{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.donation-plan-section > p{
+    padding: 1rem 15rem;
+}
+.donation-plans{
+    text-align: left;
+    margin: 3rem 5rem 5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.plan-item{
+    background-color: #ddfbff;
+    padding: 3rem 1rem 2.25rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0 rgba(58, 58, 58, 0.452);
+
+}
+.plan-item > h3{
+    font-weight: bold;
+    margin: 20px 0 10px;
+
+}
+.plan-item > p{
+   color: gray;
+
+}
+.plan-bg2{
+   background-color: #ffdddd;
+}
+.plan-bg3{
+    background-color: #fff2ce;
+}
