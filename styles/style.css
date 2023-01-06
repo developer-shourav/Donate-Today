@@ -124,7 +124,7 @@ p{
 ==================================================== */
 .donation-plan-section{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 10rem;
     text-align: center;
 }
 .donation-plan-section > p{
@@ -132,14 +132,14 @@ p{
 }
 .donation-plans{
     text-align: left;
-    margin: 3rem 5rem 5rem;
+    margin: 3rem 0 5rem;
     display: flex;
     gap: 2rem;
 }
 
 .plan-item{
     background-color: #ddfbff;
-    padding: 3rem 1rem 2.25rem;
+    padding: 4rem 1.5rem 3.5rem;
     border-radius: 5px;
     box-shadow: 1px 1px 5px 0 rgba(58, 58, 58, 0.452);
 
@@ -158,4 +158,33 @@ p{
 }
 .plan-bg3{
     background-color: #fff2ce;
+}
+
+/* =================================================
+  --------Sufferer Details  Styles --------
+==================================================== */
+.sufferer-gallery{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.gallery-content{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 7rem;
+}
+.gallery-text{
+    width: 50%;
+}
+.gallery-text > p{
+    margin: 20px 0;
+    padding: 0 2rem 0 0;
+}
+.sufferer-image{
+    width: 50%;
+}
+.sufferer-image > img{
+    width: 100%;
+    border-radius: 5px;
 }
