@@ -4,8 +4,7 @@
 ==================================================== */
 
 /* ---------Primary Font -------- */
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 /* ---------Logo Font -------- */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
@@ -21,16 +20,23 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
    font-family: 'Inter', sans-serif;
    width: 100%;
    margin: 0 auto;
 }
-
-html{
-    scroll-behavior: smooth;
+h2{
+    color: black;
+    font-size:35px;
+    font-weight: bolder;
 }
+p{
+    color: #444444;
+}
+
 .btn{
     background-color: #FF5959;
     border: none;
@@ -62,7 +68,53 @@ html{
     color: #fff;
 }
 .hero-content > p{
-    color: rgb(235, 235, 235);
+    color: #ebebeb;
     padding:1rem 6rem;
     margin-bottom: 1.5rem;
+}
+/* =================================================
+       ---------Donation section  Styles --------
+==================================================== */
+.donation-section{
+    width: 60vw;
+    margin: 7rem auto;
+
+    text-align: center;
+}
+
+.donation-section > p{
+    padding: 1rem 6rem;
+}
+.donation-amount-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.donation-amount-list > li{
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 10px auto 20px;
+    color:gray;
+    padding: 35px 25px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: .3s ease;
+}
+
+.donation-amount-list > li:hover{
+ 
+    background-color: #ff77774f;
+    color: #FF5959;
+    border: 1px solid #FF5959;
+    
+}
+
+.donation-section > input{
+    width: 90%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid gray;
 }
