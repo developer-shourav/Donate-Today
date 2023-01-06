@@ -1,0 +1,68 @@
+
+/* =================================================
+           ---------Imported Font --------
+==================================================== */
+
+/* ---------Primary Font -------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* ---------Logo Font -------- */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* font-family: 'Lobster', cursive; */
+/* =================================================
+           ---------Common Styles --------
+==================================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Inter', sans-serif;
+   width: 100%;
+   margin: 0 auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.btn{
+    background-color: #FF5959;
+    border: none;
+    color:#fff;
+    font-weight: 600;
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+/* =================================================
+       ---------Header Banner Styles --------
+==================================================== */
+.hero-area{
+      background-image: url("../images/banner.png"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+      background-blend-mode: overlay;
+      background-repeat:no-repeat;
+      background-size: cover;
+      height: 85vh;
+}
+
+.hero-content{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
+.site-title{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+}
+.hero-content > p{
+    color: rgb(235, 235, 235);
+    padding:1rem 6rem;
+    margin-bottom: 1.5rem;
+}
