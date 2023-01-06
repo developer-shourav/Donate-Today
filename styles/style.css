@@ -8,7 +8,7 @@
 /* ---------Logo Font -------- */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-/* font-family: 'Lobster', cursive; */
+
 /* =================================================
            ---------Common Styles --------
 ==================================================== */
@@ -187,4 +187,57 @@ p{
 .sufferer-image > img{
     width: 100%;
     border-radius: 5px;
+}
+
+/* =================================================
+      --------Contact section  Styles --------
+==================================================== */
+.contact{
+    width: 50%;
+    margin: 0 auto 5rem;
+    text-align: center;
+}
+.contact > p{
+    padding: 0 2rem;
+    margin: 2rem 0;
+}
+
+.email-div{
+    width: 100%;
+    padding:5rem 0;
+    background-color: #ffe9ab;
+}
+
+.email-div > input{
+    border: none;
+    padding: 10px 8px;
+    background-color: gainsboro;
+    border-radius: 2px;
+}
+
+.email-div > input:last-child{
+    padding: 10px 20px;
+    background-color: #FF5959;
+    color:#fff;
+}
+
+
+/* =================================================
+      --------Footer  Styles --------
+==================================================== */
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 3rem 0 2rem;
+}
+footer > h2{
+    color: #ff3f3f;
+    font-family: 'Lobster', cursive;
+    font-size: 33px;
+    font-weight: normal;
+    margin-bottom: .5rem;
+}
+footer > p{
+    color: #fff;
+
 }
